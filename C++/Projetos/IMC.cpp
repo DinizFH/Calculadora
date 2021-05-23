@@ -10,7 +10,7 @@ int main(){
     double peso;
 
     cout << "=-=-=-==-=-=-=-=-=-=-=-=-=-=-=-=\n";
-    cout << "IMC - Indice de massa corporal";
+    cout << "IMC - Indice de massa corporal\n";
     cout << "=-=-=-==-=-=-=-=-=-=-=-=-=-=-=-=\n";
     cout<< "=-=-=-= CALCULADORA DE IMC =-=-=-=\n";
     cout << "=-=-=-==-=-=-=-=-=-=-=-=-=-=-=-=\n";
