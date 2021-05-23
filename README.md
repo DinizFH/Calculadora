@@ -1,4 +1,4 @@
 # Projeto/Atividades C++
- projetos e atividades criados em c++
+ calculadora
 
- Disponibilizarei projetos e atividades criados em C++ durante minha jornada de aprendizado e evolução
+ Calculadora simples com laço WHILE.
