@@ -14,6 +14,7 @@ int main(){
     cout << "=-=-=-==-=-=-=-=-=-=-=-=-=-=-=-=\n";
     cout << "=-=-=-= CALCULADORA DE IMC =-=-=-=\n";
     cout << "=-=-=-==-=-=-=-=-=-=-=-=-=-=-=-=\n";
+<<<<<<< Updated upstream
     
     cout << "Informe o nome do paciente: ";
         cin >> nome;
@@ -23,6 +24,12 @@ int main(){
         cin >> sexo;
     cout << "Peso do paciente: ";
         cin >> peso;
+=======
+
+    cout << "Digite o nome do paciente: ";
+        cin >> nome;
+
+>>>>>>> Stashed changes
 
 
     return 0;
