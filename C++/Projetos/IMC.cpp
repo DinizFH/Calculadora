@@ -7,7 +7,7 @@ int main(){
     string nome;
     int idade;
     char sexo;
-    double peso, IMC, altura;
+    double peso, altura, imc;
 
     cout << "=-=-=-==-=-=-=-=-=-=-=-=-=-=-=-=\n";
     cout << "IMC - Indice de massa corporal\n";
@@ -25,9 +25,8 @@ int main(){
         cin >> altura;
     cout << "Peso do paciente: ";
         cin >> peso;
-
     
-
-
+    imc = peso / (altura * altura);
+    
     return 0;
 }
