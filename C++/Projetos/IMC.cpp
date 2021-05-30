@@ -7,14 +7,13 @@ int main(){
     string nome;
     int idade;
     char sexo;
-    double peso, IMC;
+    double peso, IMC, altura;
 
     cout << "=-=-=-==-=-=-=-=-=-=-=-=-=-=-=-=\n";
     cout << "IMC - Indice de massa corporal\n";
     cout << "=-=-=-==-=-=-=-=-=-=-=-=-=-=-=-=\n";
     cout << "=-=-=-= CALCULADORA DE IMC =-=-=-=\n";
     cout << "=-=-=-==-=-=-=-=-=-=-=-=-=-=-=-=\n";
-<<<<<<< Updated upstream
     
     cout << "Informe o nome do paciente: ";
         cin >> nome;
@@ -22,14 +21,12 @@ int main(){
         cin >> idade;
     cout << "Sexo do paciente M/F: ";
         cin >> sexo;
+    cout << "Altura do paciente: ";
+        cin >> altura;
     cout << "Peso do paciente: ";
         cin >> peso;
-=======
 
-    cout << "Digite o nome do paciente: ";
-        cin >> nome;
-
->>>>>>> Stashed changes
+    
 
 
     return 0;
