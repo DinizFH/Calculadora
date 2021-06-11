@@ -28,5 +28,11 @@ int main(){
     
     imc = peso / (altura * altura);
     
+    if (imc <= 18.5){
+        cout << fixed;
+        cout.precision(2);
+        cout << nome << " seu IMC esta em: " << imc;
+        cout << "\nGrau de OBESDADE 0, estado de MAGREZA";
+    } 
     return 0;
 }
