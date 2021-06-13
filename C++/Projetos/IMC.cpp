@@ -46,7 +46,7 @@ int main(){
         cout << nome << " seu IMC esta em: " << imc;
         cout << "\nGrau de OBESIDADE 1, estado em SOBREPESO";   
     }
-    else if ( imc > 29.9 and <= 39.9){
+    else if ( imc > 29.9 and imc <= 39.9){
         cout << fixed;
         cout.precision(2);
         cout << nome << " seu IMC esta em: " << imc;
