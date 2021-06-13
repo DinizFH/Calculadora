@@ -32,7 +32,31 @@ int main(){
         cout << fixed;
         cout.precision(2);
         cout << nome << " seu IMC esta em: " << imc;
-        cout << "\nGrau de OBESDADE 0, estado de MAGREZA";
+        cout << "\nGrau de OBESDADE 0, estado em MAGREZA";
     } 
+    else if (imc > 18.5 and imc <= 24.9){
+        cout << fixed;
+        cout.precision(2);
+        cout << nome << " seu IMC esta em: " << imc;
+        cout << "\nGrau de OBESIDADE 0, estado em NORMAL";
+    }
+    else if (imc > 24.9 and imc <= 29.9){
+        cout << fixed;
+        cout.precision(2);
+        cout << nome << " seu IMC esta em: " << imc;
+        cout << "\nGrau de OBESIDADE 1, estado em SOBREPESO";   
+    }
+    else if ( imc > 29.9 and <= 39.9){
+        cout << fixed;
+        cout.precision(2);
+        cout << nome << " seu IMC esta em: " << imc;
+        cout << "\nGrau de OBESIDADE 2, estado em OBESIDADE";
+    }
+    else if ( imc > 39.9){
+        cout << fixed;
+        cout.precision(2);
+        cout << nome << " seu IMC esta em: " << imc;
+        cout << "\nGrau de OBESIDADE 3, estado em OBESIDADE GRAVE";
+    }
     return 0;
 }
