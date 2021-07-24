@@ -5,12 +5,11 @@ using namespace std;
 int main() {
     int a = 2;
     int b = a; // atribuimos o valor por copia
-    int c;
 
     a++;
-    b++;
+    b--;
 
-    cout << a << "" << b;
+    cout <<"A: "<< a << "\n" <<"B: "<< b;
 
     return 0;
 }
