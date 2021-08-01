@@ -9,7 +9,7 @@ int main(){
     log(3, false);
     log(4, false);
     log(5, false);
-
+    
     return 0;
 }
 
